@@ -1,10 +1,66 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <head>
+        <meta charset="utf-8" />
+        <title>Responsive Web Design</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="{% static 'css/home.css' %}" />
+    </head>
 
-</body>
+    <body>
+        <header>
+            <p>RWD EDUCATION</p>
+            <nav>
+                <ul>
+                    <li>ABOUT</li>
+                    <li>REVIEWS</li>
+                    <li>CHAPTER LIST</li>
+                    <li>BUY</li>
+                    <li>CODE</li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <img src="{% static 'images/responsive-web-design-book-cover.avif' %}" alt="Cover Page of Responsive Web Design with HTML5 and CSS" />
+                <h1>Responsive Web Design WITH HTML5 AND CSS</h1>
+                <p>4th Edition</p>
+                <p>
+                    Since 2012, Responsive Web Design with HTML5 and CSS by Ben Frain has been Packt Publishing's
+                    best-selling book on Responsive Web Design. Now there is a completely updated 4th Edition for 2022
+                    and beyond!
+                </p>
+                <p>What's new in the 4th Edition?</p>
+                <p>Looking for the 3rd Edition?</p>
+            </section>
+
+            <section></section>
+            <section></section>
+            <section></section>
+        </main>
+
+        <footer>
+            <h1>ABOUT</h1>
+            <p>
+                This site supports the book, Responsive Web Design with HTML5 and CSS, 4th edition
+                ISBN 978-1-83921-156-0
+                Website source code
+                © copyright 2022 Ben Frain. All rights reserved.
+            </p>
+            <h1>BUY</h1>
+            <ul>
+                <li>Amazon US</li>
+                <li>Amazon UK</li>
+                <li>Packt</li>
+            </ul>
+            <h1>CONTACT</h1>
+            <ul>
+                <li>@benfrain on Twitter</li>
+                <li>@benfrain on GitHub</li>
+            </ul>
+            Email: contact (at) benfrain dot com
+        </footer>
+    </body>
 </html>
